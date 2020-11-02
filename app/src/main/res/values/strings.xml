@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ArtistLookUp</string>
+    <string name="top_10_track">Top 10 track</string>
+    <string name="albums">albums</string>
+    <string name="search">Search</string>
+    <string name="logout">logout</string>
+    <string name="favourite">favourite</string>
+    <string name="add">+</string>
+    <string name="tracks">Tracks</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account">Already Have account?</string>
+    <string name="enter_all_data">Please enter all data</string>
+    <string name="creadted_user">User Successfully Created</string>
+    <string name="videos">Videos</string>
+    <string name="delete">-</string>
+    <string name="go_to_website">Go to website</string>
+</resources>

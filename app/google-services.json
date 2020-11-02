@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "612976082015",
+    "firebase_url": "https://artistlookup-c4a32.firebaseio.com",
+    "project_id": "artistlookup-c4a32",
+    "storage_bucket": "artistlookup-c4a32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612976082015:android:9cc5d1a7cdb6ceeaa52fea",
+        "android_client_info": {
+          "package_name": "com.example.artistlookup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612976082015-gbda0stdu5v144oviotbb5lghjlq0ivk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa3mxQ6Cmw2Xeh2EhE_Sv_SrsPhRwcCHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612976082015-gbda0stdu5v144oviotbb5lghjlq0ivk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

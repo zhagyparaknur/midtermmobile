@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ArtistDetail"
+    android:background="@color/backgroud"
+    android:paddingTop="@dimen/margin"
+    android:paddingRight="@dimen/margin"
+    android:paddingLeft="@dimen/margin"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/artistImg"
+            android:layout_width="@dimen/imgSizeWidth"
+            android:layout_height="@dimen/imgSizeHeight"
+            android:translationX="@dimen/imgTranslationOne"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/artistLogo"
+            android:layout_width="@dimen/imgSizeWidth"
+            android:layout_height="@dimen/imgSizeHeight"
+            android:translationX="@dimen/imgTranslationTwo"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:ignore="MissingConstraints"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="@dimen/margin"
+        >
+
+        <Button
+            android:id="@+id/topTrack"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="wrap_content"
+            android:text="@string/top_10_track"
+            android:translationX="@dimen/btnTranslateNeg"
+            android:background="@drawable/drawable_button"
+            android:textColor="@color/textColor"
+            />
+
+        <Button
+            android:id="@+id/albumBtn"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="wrap_content"
+            android:text="@string/albums"
+            android:translationX="@dimen/btnTranslate"
+            android:background="@drawable/drawable_button"
+            android:textColor="@color/textColor"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin"
+
+        >
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/videos"
+            android:background="@drawable/drawable_button"
+            android:textColor="@color/textColor"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+        <ScrollView
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margin"
+                >
+            <TextView
+                android:id="@+id/artistName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Artist Name"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/albumDetailSize"/>
+
+            <TextView
+                android:id="@+id/artisBornYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Artist born year"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/descriptionSize"/>
+
+            <TextView
+                android:id="@+id/artistGenre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Artist Genre"
+                android:textColor="@color/textColor"
+
+                android:textSize="@dimen/descriptionSize"/>
+
+            <TextView
+                android:id="@+id/artistBiography"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Artist Biography"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/descriptionSize"/>
+
+            <TextView
+                android:id="@+id/artistWebSite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Artist Website"
+                android:textColor="@color/textColor"
+
+                android:textSize="@dimen/descriptionSize"
+                />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/margin"
+
+                    >
+                    <Button
+                        android:id="@+id/webSite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/go_to_website"
+                        android:background="@drawable/drawable_button"
+                        android:textColor="@color/textColor"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/goToWebBrowser" />
+
+
+
+</LinearLayout>

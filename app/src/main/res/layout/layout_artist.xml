@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/drawable_card">
+
+            <ImageView
+                android:id="@+id/artistImg"
+                android:layout_width="@dimen/imgSize"
+                android:layout_height="@dimen/imgSize"
+                app:srcCompat="@mipmap/ic_launcher"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="16dp"
+                android:layout_marginRight="@dimen/margin"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <TextView
+                    android:id="@+id/artistName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Name"
+                    android:layout_gravity="top|left"
+                    android:textColor="@color/textColor"
+                    tools:ignore="RtlHardcoded"
+                    android:textSize="@dimen/albumDetailSize"
+                    />
+
+                <TextView
+                    android:id="@+id/artistGenre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Genre"
+                    android:layout_gravity="center|left"
+                    android:textColor="@color/textColor"
+                    tools:ignore="RtlHardcoded"
+                    android:textSize="@dimen/artistDetailSize"
+                    />
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end|center"
+            >
+
+            <Button
+                android:id="@+id/favBtn"
+                android:layout_width="@dimen/addWidth"
+                android:layout_height="wrap_content"
+                android:background="@drawable/drawable_favourite"
+                android:text="@string/add"
+                android:textColor="@color/textColor"
+                android:layout_marginRight="@dimen/btnTranslate"
+                />
+
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

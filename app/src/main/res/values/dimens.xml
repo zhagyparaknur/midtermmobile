@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imgSize">100dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="toolbar">4dp</dimen>
+    <dimen name="btnTranslate">10dp</dimen>
+    <dimen name="btnTranslateNeg">-10dp</dimen>
+    <dimen name="imgTranslationOne">15dp</dimen>
+    <dimen name="imgTranslationTwo">60dp</dimen>
+    <dimen name="imgSizeWidth">161dp</dimen>
+    <dimen name="imgSizeHeight">157dp</dimen>
+    <dimen name="buttonSize">180dp</dimen>
+    <dimen name="borderRadius">5dp</dimen>
+    <dimen name="favBtn">80dp</dimen>
+    <dimen name="addWidth">50dp</dimen>
+    <dimen name="albumDetailSize">28dp</dimen>
+    <dimen name="artistDetailSize">20dp</dimen>
+    <dimen name="descriptionSize">18sp</dimen>
+    <dimen name="btnSize">200dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+</resources>
